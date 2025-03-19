@@ -1,6 +1,8 @@
-# Test script for FileSize Visualizer
+# Test script for FileSize Visualizer v0.9
+# Now with enhanced tooltips and zoom functionality!
 
 # Build the application
+Write-Host "FileSize Visualizer v0.9 - Now with enhanced tooltips and zoom functionality!"
 Write-Host "Building the application..."
 dotnet build
 
