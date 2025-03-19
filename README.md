@@ -80,22 +80,40 @@ The Display Module handles the visualization and presentation of scan results.
 ### Prerequisites
 
 - Windows 10 or later
-- .NET 6.0 SDK or later
-- Visual Studio 2022 or later
 
 ### Installation
 
-1. Clone the repository:
+#### Option 1: Run the Executable
+
+1. Download the latest release from the releases page
+2. Extract the ZIP file
+3. Run `FileSize.UI.exe`
+
+#### Option 2: Build from Source
+
+1. Prerequisites:
+   - .NET 9.0 SDK or later
+   - Visual Studio 2022 or later
+
+2. Clone the repository:
    ```
    git clone https://github.com/YourUsername/FileSize-Visualizer.git
    ```
 
-2. Open the solution in Visual Studio:
+3. Open the solution in Visual Studio:
    ```
    FileSize-Visualizer.sln
    ```
 
-3. Build and run the application.
+4. Build and run the application.
+
+### Building the Executable
+
+To build a standalone executable:
+
+1. Run the `build-exe.bat` script in the root directory
+2. The executable will be created in the `publish` folder
+3. Run `run-exe.bat` to launch the application
 
 ## Usage
 
