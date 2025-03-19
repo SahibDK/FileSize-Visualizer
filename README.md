@@ -1,6 +1,6 @@
 # FileSize-Visualizer
 
-**Version: 0.9**
+**Version: 1.0**
 
 A Windows application that scans drives and visualizes file sizes, helping users identify large files (≥ 50MB).
 
