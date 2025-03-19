@@ -4,6 +4,11 @@
 
 A Windows application that scans drives and visualizes file sizes, helping users identify large files (≥ 50MB).
 
+## Latest Updates
+
+- **Enhanced Tooltips**: Hover over any file in the visualization to see detailed information including full file path and size in both MB and bytes.
+- **Zoom Functionality**: Click on any file to zoom in and see smaller files in the same directory. Right-click or use the mouse wheel to zoom out.
+
 ## Features
 
 - Drive selection for scanning
