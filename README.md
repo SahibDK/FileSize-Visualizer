@@ -83,13 +83,20 @@ The Display Module handles the visualization and presentation of scan results.
 
 ### Installation
 
-#### Option 1: Run the Executable
+#### Option 1: Run the Installer
+
+1. Download the latest release from the releases page
+2. Run the installer (`FileSize-Visualizer-Setup.exe`)
+3. Follow the installation instructions
+4. Launch the application from the desktop shortcut or Start menu
+
+#### Option 2: Run the Executable
 
 1. Download the latest release from the releases page
 2. Extract the ZIP file
 3. Run `FileSize.UI.exe`
 
-#### Option 2: Build from Source
+#### Option 3: Build from Source
 
 1. Prerequisites:
    - .NET 9.0 SDK or later
@@ -107,13 +114,27 @@ The Display Module handles the visualization and presentation of scan results.
 
 4. Build and run the application.
 
-### Building the Executable
+### Building the Executable and Installer
+
+#### Building the Executable
 
 To build a standalone executable:
 
 1. Run the `build-exe.bat` script in the root directory
 2. The executable will be created in the `publish` folder
 3. Run `run-exe.bat` to launch the application
+
+#### Building the Installer
+
+To build an installer:
+
+1. First build the executable using the steps above
+2. Run the `create-simple-installer.ps1` script to create a self-extracting installer
+3. The installer will be created in the `installer` folder as `FileSize-Visualizer-Setup.exe`
+
+Alternative installer scripts are also available:
+- `create-installer.bat` - Uses Inno Setup (if installed)
+- `create-nsis-installer.bat` - Uses NSIS (if installed)
 
 ## Usage
 
