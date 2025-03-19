@@ -125,4 +125,4 @@ To build a standalone executable:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under a proprietary license. All rights reserved by QualityGate ApS. See the LICENSE file for details.

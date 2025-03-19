@@ -7,6 +7,8 @@
     <Version>1.0.0</Version>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>1.0.0</FileVersion>
+    <Copyright>Copyright © 2025 QualityGate ApS. All rights reserved.</Copyright>
+    <Company>QualityGate ApS</Company>
   </PropertyGroup>
 
 </Project>
