@@ -1,0 +1,3 @@
+@echo off
+echo Running FileSize Visualizer v0.9...
+start publish\FileSize.UI.exe
