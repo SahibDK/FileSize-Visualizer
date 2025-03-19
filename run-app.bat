@@ -1,4 +1,5 @@
 @echo off
+echo FileSize Visualizer v0.9 - Now with enhanced tooltips and zoom functionality!
 echo Building the application...
 dotnet build
 if %ERRORLEVEL% EQU 0 (
