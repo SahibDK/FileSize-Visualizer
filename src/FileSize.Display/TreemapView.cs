@@ -209,9 +209,9 @@ namespace FileSize.Display
             byte b = (byte)(hash & 0x0000FF);
 
             // Ensure the color is not too dark or too light
-            r = (byte)Math.Max(r, 100);
-            g = (byte)Math.Max(g, 100);
-            b = (byte)Math.Max(b, 100);
+            r = (byte)Math.Max((int)r, 100);
+            g = (byte)Math.Max((int)g, 100);
+            b = (byte)Math.Max((int)b, 100);
 
             return new SolidColorBrush(Color.FromRgb(r, g, b));
         }
