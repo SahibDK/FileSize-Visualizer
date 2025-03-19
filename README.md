@@ -129,12 +129,23 @@ To build a standalone executable:
 To build an installer:
 
 1. First build the executable using the steps above
-2. Run the `create-simple-installer.ps1` script to create a self-extracting installer
-3. The installer will be created in the `installer` folder as `FileSize-Visualizer-Setup.exe`
+2. Run the `create-portable-zip.bat` script to create a portable ZIP package (recommended)
+3. The ZIP package will be created in the `installer` folder as `FileSize-Visualizer-Portable-v1.0.zip`
 
 Alternative installer scripts are also available:
+- `create-simple-installer.ps1` - Creates a self-extracting installer
 - `create-installer.bat` - Uses Inno Setup (if installed)
 - `create-nsis-installer.bat` - Uses NSIS (if installed)
+
+#### Troubleshooting Installation Issues
+
+If you encounter a "This app can't run on your PC" message when trying to run the application:
+
+1. Use the portable ZIP package (`FileSize-Visualizer-Portable-v1.0.zip`) instead of the installer
+2. After extracting the ZIP file, right-click on `FileSize.UI.exe`
+3. Select Properties
+4. Check "Unblock" at the bottom of the Properties dialog
+5. Click Apply and OK
 
 ## Usage
 
